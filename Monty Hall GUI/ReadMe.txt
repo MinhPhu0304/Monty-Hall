@@ -1,11 +1,11 @@
 ========================================================================
-    WIN32 APPLICATION : [!output PROJECT_NAME] Project Overview
+    WIN32 APPLICATION : Project Overview
 ========================================================================
 
-AppWizard has created this [!output PROJECT_NAME] application for you.
+AppWizard has created this application for you.
 
 This file contains a summary of what you will find in each of the files that
-make up your [!output PROJECT_NAME] application.
+make up your application.
 
 
     This is the main project file for VC++ projects generated using an Application Wizard.
@@ -51,7 +51,5 @@ StdAfx.h, StdAfx.cpp
 /////////////////////////////////////////////////////////////////////////////
 Other notes:
 
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
 
 /////////////////////////////////////////////////////////////////////////////
