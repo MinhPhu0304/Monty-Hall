@@ -158,7 +158,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 	case WM_CREATE:
 	{
 		door_1 = CreateWindow(L"Button", L"DOOR 1",
-			WS_CHILD | WS_VISIBLE | WS_BORDER,
+			WS_CHILD | WS_VISIBLE | WS_BORDER ,
 			10, 10, 100, 200,
 			hWnd, (HMENU)ID_DOOR_1_BUTTON, NULL, NULL);
 
@@ -376,6 +376,7 @@ void result(void)
 
 			user_win_message(door_number + 1);
 		}
+		
 	}
 
 	if (user_win_message_func_called == false)
@@ -389,7 +390,7 @@ void user_win_message(int win_door)
 	switch (win_door)
 	{
 	case 1:
-		SetWindowText(door_1,L"$");
+		SetWindowText(door_1, L"$");
 		SetWindowText(door_2, L"X");
 		SetWindowText(door_3, L"X");
 
